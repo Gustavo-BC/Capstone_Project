@@ -1,0 +1,21 @@
+body {
+    background-color: #CCB486;
+    color: #2A2C24;
+}
+
+.navbar {
+    background-color: #2A2C24;
+}
+
+.navbar-item {
+    color: #FFFFFF;
+}
+
+#home_banner {
+    background-color: #575A4B;
+}
+
+.footer {
+    background-color: #575A4B;
+    color: #FFFFFF;
+}
