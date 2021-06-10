@@ -1,0 +1,10 @@
+#term_list li a{
+    border: 1px solid #2A2C24; 
+    margin-top: -1px;
+    background-color:  #CCB486;
+    padding: 12px;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+

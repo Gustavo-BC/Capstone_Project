@@ -5,6 +5,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 
         <script src="https://kit.fontawesome.com/0041a7205b.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="styling/words.css">
+        <link rel="stylesheet" href="styling/main.css">
+
     </head>
 
     <body>
@@ -26,42 +30,60 @@
                     </a>
 
                     <a class="navbar-item" href="words.html">
-                        <i class="fas fa-book-reader"></i>Words to know
+                        <i class="fas fa-book-reader"></i>Glossary
                     </a>
                 </div>
             </div>
         </nav>
 
-        <section class="hero is-medium is-link">
+        <section id="home_banner" class="hero is-medium is-link">
             <div class="hero-body">
                 <p class="title">
-                    FAFSAPrep
+                    Glossary
                 </p>
                 <p class="subtitle">
-                    Your go to spot for preparing to fill out your FAFSA
+                    Here you can view and search words you might come across in the application
                 </p>
             </div>
         </section>
 
-        <div class="field has-addons">
             <div class="control">
                 <input id="searchbar" onkeyup="searchWords()" class="input" type="text" placeholder="Find a word">
             </div>
-        </div>
 
-        <ul id="term_list">
-            <li><a href="#">Accrual date</a></li>
-            <li><a href="#">Academic year</a></li>
-            <li><a href="#">Adjusted Available Income</a></li>
-            <li><a href="#">Bachelor’s Degree</a></li>
-            <li><a href="#">Budget</a></li>
-            <li><a href="#">Bursar’s Office</a></li>
-            <li><a href="#">Campus-Based Programs</a></li>
-            <li><a href="#">Central Processing Programs</a></li>
-            <li><a href="#">Collateral</a></li>
-        </ul>
+            <ul id="term_list">
+                <li><a class="collapsible" href="/definitions/accrual.html">Accrual date</a></li>
+                <li><a href="/definitions/academic_year.html">Academic year</a></li>
+                <li><a href="/definitions/adjusted_available.html">Adjusted Available Income</a></li>
+                <li><a href="/definitions/bachelors_degree.html">Bachelor’s Degree</a></li>
+                <li><a href="/definitions/budget.html">Budget</a></li>
+                <li><a href="/definitions//bursars_office.html">Bursar’s Office</a></li>
+                <li><a href="/definitions/campus_based.html">Campus-Based Programs</a></li>
+                <li><a href="/definitions/central_processing.html">Central Processing Programs</a></li>
+                <li><a href="/definitions/collateral.html">Collateral</a></li>
+                <li><a href="/definitions/dependency.html">Dependency Status</a></li>
+                <li><a href="/definitions/direct_loans.html">Direct Loans</a></li>
+                <li><a href="/definitions/disbursement.html">Disbursement</a></li>
+                <li><a href="/definitions/expected.html">Expected Family Contribution (EFC)</a></li>
+                <li><a href="/definitions/federal_direct.html">Federal Direct Student loan Program (FDSLP)</a></li>
+                <li><a href="/definitions/federal_supplemental.html">Federal Supplemental Educational Opportunity Grant (FSEOG)</a></li>
+                <li><a href="/definitions/fafsa.html">Free Application for Federal Student Aid (FAFSA)</a></li>
+                <li><a href="/definitions/grant.html">Grant</a></li>
+                <li><a href="/definitions/home_equity.html">Home Equity</a></li>
+                <li><a href="/definitions/need_blind.html">Need-Blind Admissions</a></li>
+                <li><a href="/definitions/need-sensitive.html">Need-Sensitive Admissions</a></li>
+                <li><a href="/definitions/pell_grant.html">Pell Grant</a></li>
+                <li><a href="/definitions/perkins_loan.html">Perkins Loan</a></li>
+                <li><a href="/definitions/prepaid_tuition.html">Prepaid Tuition Plan</a></li>
+                <li><a href="/definitions/student_aid.html">Student Aid Report (SAR)</a></li>
+                <li><a href="/definitions/subsidized_loan.html">Subsidized Loan</a></li>
+                <li><a href="/definitions/unsubsidized.html">Unsubsidized Loan</a></li>
+            </ul>
+       
+       
 
       <script src="functions.js"></script>  
+      <script src="glossary_functions.js"></script>
     </body>
 
     <footer class="footer">

@@ -11,3 +11,13 @@
     padding-top: 20px;
 }
 */
+
+.message-body {
+    background-color: #575A4B;
+    color: #FFFFFF;
+}
+
+.message-header {
+    background-color: #2a2c24;
+    color: #FFFFFF;
+}
